@@ -63,3 +63,4 @@ class Grafo:
         lat1, lon1 = coord1
         lat2, lon2 = coord2
         return math.sqrt((lat2 - lat1)**2 + (lon2 - lon1)**2)
+
